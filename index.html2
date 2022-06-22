@@ -1,0 +1,10 @@
+#!bin/bash
+
+File=text-file
+if
+   [ -e $file ]
+then
+echo “File $file exists.”
+else
+echo “File $file doesn’t exist.”
+fi
